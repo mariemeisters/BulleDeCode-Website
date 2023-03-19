@@ -1,0 +1,35 @@
+.Header {
+    background-color: #2a6e6b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.Header h1 {
+    color: white;
+    margin: 0;
+   
+}
+
+.Header nav {
+    max-width: 80%;
+ 
+}
+
+.Header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    flex-wrap: wrap;
+
+}
+
+.Header a {
+    padding-left: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
